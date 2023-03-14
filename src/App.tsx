@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { calculateMarkupPercentage } from './components/converter';
+import { calculateMarkupPercentage } from './components/Converter';
 
 function App() {
   const [finalPrice, setFinalPrice] = useState<number>(0);
